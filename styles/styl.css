@@ -1,0 +1,100 @@
+/* BODY STYLES */
+body
+{
+    background-color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
+}
+
+h1 , h2 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLES */
+
+#header
+{
+    background-image: url('../images/bg.jpg');
+    background-position-y: center;
+    height: 250px;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+/* CONTAINER STYLES */
+
+.container
+{
+    width: 500px;
+    margin: auto;
+}
+
+/* TITELS STYLES */
+
+.container h1
+{
+    font-size: 33px;
+    margin-top: 20px;
+}
+
+.container h2
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* FORM STYLES */
+#header #inputText
+{
+    width: 100%;
+    opacity: 80%;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px -8px #000000;
+    font-size: 23px;
+    box-sizing: border-box;
+    margin-top:20px ;
+
+}
+
+input:focus
+{
+    outline: none;
+
+}
+
+/* TO DO LIST SECTION */
+#header #toDoList
+{
+    background-color: rgba(255,255,255, 0.8);;
+    box-shadow: 0px 0px 13px -5px #000000;;
+    border-radius: 3px;
+    margin-top: 51px;
+    padding: 0;
+}
+
+#header #toDoList li
+{
+list-style: none;
+padding: 15px;
+border-bottom:1px solid #e4e4e4;;
+color:black ;
+}
+
+#header #toDoList li:last-child
+{
+    border: none;
+}
+
+/* TOATAL NUMBER SECTION */
+#header #toatal
+{
+display: inline-block;
+margin-top: 10px;
+}
